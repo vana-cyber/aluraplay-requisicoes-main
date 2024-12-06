@@ -21,7 +21,15 @@ async function criaVideo(titulo, url, descricao, imagem) {
     });
 }
 
+async function buscaVideo(termoDeBusca) {
+    const conecta = await fetch(`http//:localhost:3000/videos?q=${termoDeBusca}`)
+    const conectaConvertido = await conecta.json();
+
+    return conectaConvertido;
+}
+
 export const conectaApi = { //para exportar a aplicação
     listaVideos,
-    criaVideo
+    criaVideo,
+    buscaVideo
 } 
