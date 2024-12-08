@@ -83,6 +83,20 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
+    },
+    {
+      "titulo": "Arrow Function do JavaScript, simples e feliz! #02",
+      "url": "https://www.youtube.com/embed/watch?v=3EkS9-P3cIM&t=86s",
+      "descricao": "5 mil visualizações",
+      "imagem": "https://yt3.ggpht.com/cyVxzC2XKJcwuluLAc_uAf_ABz9YJwFeoWf1HgjLJtGmdQV3i5Ie5f4PS3zn4u8iGRp0lh7U=s48-c-k-c0x00ffffff-no-rj",
+      "id": 13
+    },
+    {
+      "titulo": "Arrow Function do JavaScript, simples e feliz! #02",
+      "url": "https://www.youtube.com/embed/watch?v=3EkS9-P3cIM&t=86s",
+      "descricao": "5 mil visualizações",
+      "imagem": "https://yt3.ggpht.com/cyVxzC2XKJcwuluLAc_uAf_ABz9YJwFeoWf1HgjLJtGmdQV3i5Ie5f4PS3zn4u8iGRp0lh7U=s48-c-k-c0x00ffffff-no-rj",
+      "id": 14
     }
   ]
 }

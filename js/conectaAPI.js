@@ -19,10 +19,15 @@ async function criaVideo(titulo, url, descricao, imagem) {
         })    
 
     });
+
+    if(!conectaVideo.ok) {
+        throw new Error("Não foi possível enviar o vídeo");
+    }
+
 }
 
 async function buscaVideo(termoDeBusca) {
-    const conecta = await fetch(`http//:localhost:3000/videos?q=${termoDeBusca}`)
+    const conecta = await fetch(`http://localhost:3000/videos?q=${termoDeBusca}`)
     const conectaConvertido = await conecta.json();
 
     return conectaConvertido;

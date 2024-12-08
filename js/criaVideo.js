@@ -10,9 +10,14 @@ async function criaVideo(evento) {
     const descricao = Math.floor(Math.random() *10).toString(); //converte a descrição para o menor número inteiro possível (o Math.floor() serve para arredondar o número)
     const url = document.querySelector("[data-url]").value;
 
-    await conectaApi.criaVideo(titulo, url, descricao, imagem);
+    try {
+        await conectaApi.criaVideo(titulo, url, descricao, imagem);
 
-    window.location.href = "../pages/envio-concluido.html";
+        window.location.href = "../pages/envio-concluido.html";
+        alert('Vídeo adicionado com sucesso!');
+    } catch (e) {
+        alert(e);
+    }
 }
 
 formulario.addEventListener("submit", evento => (criaVideo(evento))); 
